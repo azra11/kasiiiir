@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PemesananActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEMESANAN FREMILT"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:id="@+id/cars_thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_below="@id/judul"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/cars_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cars_thumbnail"
+        android:layout_below="@id/judul"
+        android:text="nama"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/minuman_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cars_name"
+        android:layout_below="@id/judul"
+        android:text="nama"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginLeft="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah pesan?"
+        android:textSize="15sp"
+        android:layout_below="@id/cars_thumbnail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Harga = "
+        android:layout_below="@id/btnPesan"
+        android:textSize="18sp"
+        android:layout_marginLeft="25sp"/>
+
+    <TextView
+        android:id="@+id/biaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="biaya"
+        android:layout_below="@id/btnPesan"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/total"
+        android:layout_marginLeft="100sp"/>
+
+    <Button
+        android:id="@+id/btnBayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pembayaran"
+        android:textSize="15sp"
+        android:layout_below="@id/total"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

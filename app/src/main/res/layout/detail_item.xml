@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/layout_title">
+
+        >
+        <TextView
+            android:id="@+id/dialog_title_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:layout_marginLeft="15sp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/dialog_image_id"
+            android:layout_centerHorizontal="true"
+            />
+
+    <TextView
+        android:id="@+id/dialog_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:layout_marginLeft="15sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/dialog_title_id"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ori"
+        android:id="@+id/dialog_image_id"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10sp"
+        />
+
+    <EditText
+        android:id="@+id/etTotal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan jumlah"
+        android:layout_below="@id/dialog_harga"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        />
+    <Button
+        android:id="@+id/btnBeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli"
+        android:layout_below="@id/etTotal"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

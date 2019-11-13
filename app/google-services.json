@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "444977122538",
+    "firebase_url": "https://androidfremilt.firebaseio.com",
+    "project_id": "androidfremilt",
+    "storage_bucket": "androidfremilt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444977122538:android:2b47d03058376b49a55b93",
+        "android_client_info": {
+          "package_name": "com.example.aplikasifremilt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444977122538-uvmsd8qup7gut7al3qco7tmomuu65q4j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplikasifremilt",
+            "certificate_hash": "c4f9e0c0940c793b5c1524bd151586a080680d99"
+          }
+        },
+        {
+          "client_id": "444977122538-mj5npeh9rrsndmldohr05kcjl8m8fqc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqxCZfeFdeOicG8U7i062jdpmWcnqzGTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444977122538-mj5npeh9rrsndmldohr05kcjl8m8fqc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
